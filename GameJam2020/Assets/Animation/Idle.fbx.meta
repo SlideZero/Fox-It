@@ -1,0 +1,788 @@
+fileFormatVersion: 2
+guid: 5b9498d42b84bf448bd1e39f26171053
+ModelImporter:
+  serializedVersion: 19300
+  internalIDToNameTable:
+  - first:
+      74: 1827226128182048838
+    second: Take 001
+  externalObjects: {}
+  materials:
+    materialImportMode: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar
+      to improve retargeting quality.\n\t'FoxRig:QuickRigCharacter_LeftLeg' has translation
+      animation that will be discarded.\n\t'FoxRig:QuickRigCharacter_RightLeg' has
+      translation animation that will be discarded.\n\t'FoxRig:QuickRigCharacter_LeftForeArm'
+      has translation animation that will be discarded.\n\t'FoxRig:QuickRigCharacter_RightForeArm'
+      has translation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 1
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      internalID: 0
+      firstFrame: 0
+      lastFrame: 120
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: FoxRig:QuickRigCharacter_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FoxRig:QuickRigCharacter_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Idle(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Fox
+      parentName: Idle(Clone)
+      position: {x: -0, y: 0, z: -0.0006809056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Fox_character:Group8638
+      parentName: FoxRig:Fox
+      position: {x: -0, y: 0, z: 0.0006809056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Fox_character:Group101
+      parentName: FoxRig:Fox
+      position: {x: -0, y: 0, z: 0.0006809056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Fox_character:Group57145
+      parentName: FoxRig:Fox
+      position: {x: -0, y: 0, z: 0.0006809056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Fox_character:Group19235
+      parentName: FoxRig:Fox
+      position: {x: -0, y: 0, z: 0.0006809056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Fox_character:Group64625
+      parentName: FoxRig:Fox
+      position: {x: -0, y: 0, z: 0.0006809056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Guides
+      parentName: Idle(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Head
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0, y: 0.04726373, z: -0.0018342474}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Hips
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0, y: 0.018504377, z: -0.00084630726}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:LeftArm
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0.0044461517, y: 0.033822406, z: -0.0027192866}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:LeftFoot
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0.0064248433, y: 0.0026058631, z: -0.0014392721}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:LeftForeArm
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0.011985405, y: 0.03274608, z: -0.0025498986}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:LeftHand
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0.019577375, y: 0.03245008, z: -0.0024062553}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:LeftLeg
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0.0050322614, y: 0.010574875, z: -0.00023763179}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:LeftShoulder
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0.0019454048, y: 0.03420163, z: -0.0012405745}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:LeftToeBase
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0.0066701816, y: 0.00069643295, z: 0.0005207877}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:LeftUpLeg
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0.0034817616, y: 0.017651517, z: -0.000946151}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Neck
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0, y: 0.03179474, z: -0.0019835215}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Reference
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0, y: -0.00024723052, z: -0.0006809056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:RightArm
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: 0.0044461517, y: 0.033822406, z: -0.0027192866}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:RightFoot
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: 0.0064248433, y: 0.0026058631, z: -0.0014392721}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:RightForeArm
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: 0.011985405, y: 0.03274608, z: -0.0025498986}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:RightHand
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: 0.019577375, y: 0.03245008, z: -0.0024062553}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:RightLeg
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: 0.0050322614, y: 0.010574875, z: -0.00023763179}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:RightShoulder
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: 0.0019454048, y: 0.03420163, z: -0.0012405745}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:RightToeBase
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: 0.0066701816, y: 0.00069643295, z: 0.0005207877}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:RightUpLeg
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: 0.0034817616, y: 0.017651517, z: -0.000946151}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Spine
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0, y: 0.021033628, z: -0.0004706093}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Spine1
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0, y: 0.02435031, z: -0.00062531}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:Spine2
+      parentName: FoxRig:QuickRigCharacter_Guides
+      position: {x: -0, y: 0.027807755, z: -0.0010778551}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Reference
+      parentName: Idle(Clone)
+      position: {x: -0, y: -0.00024723052, z: -0.0006809056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Hips
+      parentName: FoxRig:QuickRigCharacter_Reference
+      position: {x: 2.2169764e-20, y: 0.01857003, z: -0.0001654017}
+      rotation: {x: 0.5354739, y: -0.46180922, z: -0.5354739, w: 0.46180922}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: FoxRig:QuickRigCharacter_LeftUpLeg
+      parentName: FoxRig:QuickRigCharacter_Hips
+      position: {x: 0.0008582753, y: 0.000026550055, z: 0.0034817616}
+      rotation: {x: -0.09665176, y: -0.041570514, z: 0.9864068, w: -0.12622246}
+      scale: {x: 1.0000001, y: 1.0000006, z: 1.0000005}
+    - name: FoxRig:QuickRigCharacter_LeftLeg
+      parentName: FoxRig:QuickRigCharacter_LeftUpLeg
+      position: {x: -0.0072790696, y: 0.00000010303764, z: 0.0000000121378285}
+      rotation: {x: 0.007462689, y: -0.00093165925, z: -0.12399273, w: 0.99225473}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.0000004}
+    - name: FoxRig:QuickRigCharacter_LeftFoot
+      parentName: FoxRig:QuickRigCharacter_LeftLeg
+      position: {x: -0.008178542, y: -0.0000000010292869, z: -8.094772e-10}
+      rotation: {x: 0.020860026, y: 0.061959244, z: -0.4506824, w: -0.8902872}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000001}
+    - name: FoxRig:QuickRigCharacter_LeftToeBase
+      parentName: FoxRig:QuickRigCharacter_LeftFoot
+      position: {x: -0.002747356, y: 3.5856967e-10, z: 7.704162e-10}
+      rotation: {x: 0.0000000018626447, y: 0.0000000037252894, z: -0.000000004656612,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: FoxRig:QuickRigCharacter_RightUpLeg
+      parentName: FoxRig:QuickRigCharacter_Hips
+      position: {x: 0.0008582753, y: 0.000026550055, z: -0.0034817616}
+      rotation: {x: -0.041544616, y: 0.09665163, z: 0.1262236, w: 0.9864077}
+      scale: {x: 1, y: 1.0000002, z: 1}
+    - name: FoxRig:QuickRigCharacter_RightLeg
+      parentName: FoxRig:QuickRigCharacter_RightUpLeg
+      position: {x: 0.007279086, y: -0.000000053071908, z: -0.00000000827542}
+      rotation: {x: 0.0074596293, y: -0.00093161315, z: -0.12399686, w: 0.99225414}
+      scale: {x: 1.0000002, y: 1.0000004, z: 1.0000004}
+    - name: FoxRig:QuickRigCharacter_RightFoot
+      parentName: FoxRig:QuickRigCharacter_RightLeg
+      position: {x: 0.008178539, y: -0.0000000033396645, z: 0.0000000015327183}
+      rotation: {x: -0.020884523, y: -0.061952613, z: 0.4506836, w: 0.89028645}
+      scale: {x: 1.0000005, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_RightToeBase
+      parentName: FoxRig:QuickRigCharacter_RightFoot
+      position: {x: 0.0027473548, y: -8.651853e-12, z: 3.8772238e-10}
+      rotation: {x: 0.0000253953, y: -0.00000001862645, z: 0.000000046915368, w: 1}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1.0000005}
+    - name: FoxRig:QuickRigCharacter_Spine
+      parentName: FoxRig:QuickRigCharacter_Hips
+      position: {x: -0.0025570001, y: 1.3312573e-10, z: -6.5118977e-19}
+      rotation: {x: -0, y: -0, z: 0.09688398, w: 0.99529576}
+      scale: {x: 1.0000005, y: 1.0000005, z: 1.0000002}
+    - name: FoxRig:QuickRigCharacter_Spine1
+      parentName: FoxRig:QuickRigCharacter_Spine
+      position: {x: -0.003320287, y: 5.653165e-11, z: -6.2136913e-19}
+      rotation: {x: -0.000000028218441, y: 0.000000017718431, z: 0.041758224, w: 0.9991278}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000001}
+    - name: FoxRig:QuickRigCharacter_Spine2
+      parentName: FoxRig:QuickRigCharacter_Spine1
+      position: {x: -0.0034869371, y: 1.2057716e-10, z: -3.217377e-19}
+      rotation: {x: 0.000000026544429, y: -0.000000020139918, z: 0.046590608, w: 0.99891406}
+      scale: {x: 1.0000008, y: 1.0000008, z: 1.0000008}
+    - name: FoxRig:QuickRigCharacter_LeftShoulder
+      parentName: FoxRig:QuickRigCharacter_Spine2
+      position: {x: -0.0062710783, y: 0.0012576454, z: 0.0019454048}
+      rotation: {x: -0.3323579, y: 0.48787224, z: 0.5160998, w: 0.6206125}
+      scale: {x: 1.0000014, y: 1.0000004, z: 1.0000005}
+    - name: FoxRig:QuickRigCharacter_LeftArm
+      parentName: FoxRig:QuickRigCharacter_LeftShoulder
+      position: {x: -0.0029298693, y: -0.0000000017779141, z: 2.2332253e-10}
+      rotation: {x: 0.6820094, y: 0.1096966, z: -0.161927, w: 0.7047053}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1.0000004}
+    - name: FoxRig:QuickRigCharacter_LeftForeArm
+      parentName: FoxRig:QuickRigCharacter_LeftArm
+      position: {x: -0.0076175826, y: -0.0000000031708909, z: 0.0000000025914046}
+      rotation: {x: -0.00020533793, y: -0.0039860145, z: -0.0008083728, w: 0.9999918}
+      scale: {x: 1.0000001, y: 1.0000004, z: 1.0000002}
+    - name: FoxRig:QuickRigCharacter_LeftHand
+      parentName: FoxRig:QuickRigCharacter_LeftForeArm
+      position: {x: -0.007599097, y: 0.0000000023046751, z: 0.000000005306181}
+      rotation: {x: -0.00000003052896, y: 0.00000001334956, z: -0.000000003725777,
+        w: 1}
+      scale: {x: 1.0000002, y: 1.0000005, z: 1.0000005}
+    - name: FoxRig:QuickRigCharacter_RightShoulder
+      parentName: FoxRig:QuickRigCharacter_Spine2
+      position: {x: -0.0062710783, y: 0.0012576454, z: -0.0019454048}
+      rotation: {x: 0.48787245, y: 0.33235788, z: -0.6206125, w: 0.5160997}
+      scale: {x: 1.000001, y: 1.0000018, z: 1.0000014}
+    - name: FoxRig:QuickRigCharacter_RightArm
+      parentName: FoxRig:QuickRigCharacter_RightShoulder
+      position: {x: 0.0029298693, y: 0.0000000017779141, z: -2.2332253e-10}
+      rotation: {x: -0.6820087, y: -0.10969792, z: 0.16192658, w: -0.7047059}
+      scale: {x: 0.9999998, y: 1.0000012, z: 1.0000002}
+    - name: FoxRig:QuickRigCharacter_RightForeArm
+      parentName: FoxRig:QuickRigCharacter_RightArm
+      position: {x: 0.0076175835, y: 0.000000015575123, z: -0.000000005293124}
+      rotation: {x: -0.00020498026, y: -0.0039876676, z: -0.0008065547, w: 0.9999917}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000006}
+    - name: FoxRig:QuickRigCharacter_RightHand
+      parentName: FoxRig:QuickRigCharacter_RightForeArm
+      position: {x: 0.007599095, y: -4.862689e-10, z: -0.000000003990941}
+      rotation: {x: 0.00000003359443, y: -0.000000072875075, z: -0.00000006705378,
+        w: 1}
+      scale: {x: 1.0000004, y: 1.0000001, z: 1.0000001}
+    - name: FoxRig:QuickRigCharacter_Neck
+      parentName: FoxRig:QuickRigCharacter_Spine2
+      position: {x: -0.004088558, y: 2.9860916e-11, z: -6.221041e-19}
+      rotation: {x: -0.000000034785682, y: -0.000000023797348, z: 0.116243914, w: -0.99322075}
+      scale: {x: 1.0000017, y: 1.0000019, z: 1.0000017}
+    - name: FoxRig:QuickRigCharacter_Head
+      parentName: FoxRig:QuickRigCharacter_Neck
+      position: {x: -0.0154697085, y: 4.7079635e-11, z: -3.9985803e-18}
+      rotation: {x: -0, y: -0, z: -8.278069e-16, w: 1}
+      scale: {x: 1.0000001, y: 0.99999994, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_Reference
+      parentName: Idle(Clone)
+      position: {x: -0, y: -0.00024723052, z: -0.0006809056}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_HipsEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0, y: 0.017717168, z: -0.00026524544}
+      rotation: {x: 1.4163847e-16, y: 2.7415802e-32, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftAnkleEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.004, y: 0.0028530918, z: -0.00075837044}
+      rotation: {x: 0.0019362718, y: -0.03213535, z: -0.031062903, w: 0.9989988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightAnkleEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.004, y: 0.0028530979, z: -0.0007583675}
+      rotation: {x: 0.0019367042, y: 0.032116517, z: 0.031039618, w: 0.9990002}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftWristEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.008987217, y: 0.019683747, z: -0.0007114872}
+      rotation: {x: -0.19246022, y: 0.006643678, z: 0.622839, w: 0.75827867}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightWristEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.008045354, y: 0.020946972, z: -0.0010801002}
+      rotation: {x: 0.73819625, y: -0.64859444, z: -0.15133071, w: -0.10719392}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftKneeEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.00397825, y: 0.010787684, z: 0.0012082604}
+      rotation: {x: 0.12043168, y: -0.039211746, z: -0.020253418, w: 0.9917401}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightKneeEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.004946051, y: 0.010804883, z: 0.00045439697}
+      rotation: {x: 0.07103697, y: 0.038920317, z: 0.09389632, w: 0.99228144}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftElbowEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.007284593, y: 0.026842197, z: -0.0026098846}
+      rotation: {x: -0.08211684, y: 0.09558695, z: 0.61549586, w: 0.77800053}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightElbowEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.008902904, y: 0.027977163, z: -0.0038345926}
+      rotation: {x: -0.019929208, y: -0.251219, z: -0.7023627, w: 0.6657165}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_ChestOriginEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -6.4538787e-19, y: 0.021280859, z: 0.00021029629}
+      rotation: {x: -2.4980015e-16, y: -4.0059346e-32, z: -1.110223e-16, w: 1}
+      scale: {x: 6.646732, y: 1, z: 6.646732}
+    - name: FoxRig:QuickRigCharacter_Ctrl_ChestEndEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0, y: 0.03444886, z: -0.000559669}
+      rotation: {x: -4.1633363e-17, y: -7.70372e-33, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftFootEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.004474893, y: 0.00094366, z: 0.0012016922}
+      rotation: {x: 0.0019362721, y: -0.032135345, z: -0.031062903, w: 0.9989988}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightFootEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.00667018, y: 0.00094366516, z: 0.0012016926}
+      rotation: {x: 0.0019367044, y: 0.0321165, z: 0.03103961, w: 0.9990002}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftShoulderEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.0044461517, y: 0.033888057, z: -0.002038381}
+      rotation: {x: 0.00024561296, y: -0.04511542, z: 0.5582618, w: 0.82843727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightShoulderEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.0044461517, y: 0.033888057, z: -0.002038381}
+      rotation: {x: 0.06283044, y: 0.1013474, z: -0.44407076, w: 0.8880215}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_HeadEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -1.1298884e-17, y: 0.047510963, z: -0.0011533418}
+      rotation: {x: 1.4163847e-16, y: 2.7415802e-32, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftHipEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: -0.0034817616, y: 0.017898748, z: -0.00026524544}
+      rotation: {x: -0.1030671, y: -0.038843647, z: -0.030298617, w: 0.99345374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightHipEffector
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: 0.0034817616, y: 0.017898748, z: -0.00026524544}
+      rotation: {x: -0.053212468, y: 0.03431242, z: 0.099449225, w: 0.9930262}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_Hips
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Reference
+      position: {x: 2.2169764e-20, y: 0.01857003, z: -0.0001654017}
+      rotation: {x: 1.4163847e-16, y: 2.7415802e-32, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftUpLeg
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Hips
+      position: {x: -0.0034817616, y: -0.0008528614, z: -0.00009984374}
+      rotation: {x: -0.1030671, y: -0.038843647, z: -0.030298617, w: 0.99345374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftLeg
+      parentName: FoxRig:QuickRigCharacter_Ctrl_LeftUpLeg
+      position: {x: -0, y: -0.007279073, z: 0}
+      rotation: {x: 0.22226045, y: 0.005304124, z: 0.0012080739, w: 0.9749722}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftFoot
+      parentName: FoxRig:QuickRigCharacter_Ctrl_LeftLeg
+      position: {x: -0, y: -0.008178532, z: -1.3877787e-19}
+      rotation: {x: -0.11895802, y: 0.0036008337, z: -0.006778993, w: 0.9928696}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftToeBase
+      parentName: FoxRig:QuickRigCharacter_Ctrl_LeftFoot
+      position: {x: -0.0000000011920929, y: -0.0019094301, z: 0.0019753545}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightUpLeg
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Hips
+      position: {x: 0.0034817616, y: -0.0008528614, z: -0.00009984374}
+      rotation: {x: -0.05321246, y: 0.034312412, z: 0.09944921, w: 0.9930262}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightLeg
+      parentName: FoxRig:QuickRigCharacter_Ctrl_RightUpLeg
+      position: {x: 5.9604643e-10, y: -0.007279073, z: 0.00000007122755}
+      rotation: {x: 0.1239921, y: -0.0074596973, z: -0.00093159155, w: 0.99225473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightFoot
+      parentName: FoxRig:QuickRigCharacter_Ctrl_RightLeg
+      position: {x: -2.9802322e-10, y: -0.008178532, z: 0}
+      rotation: {x: -0.06723665, y: -0.004989675, z: -0.065208495, w: 0.9955914}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightToeBase
+      parentName: FoxRig:QuickRigCharacter_Ctrl_RightFoot
+      position: {x: 0.00000016540288, y: -0.0019094301, z: 0.0019753545}
+      rotation: {x: 2.785933e-24, y: -0.00000002274887, z: -1.2246467e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_Spine
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Hips
+      position: {x: 4.9303805e-34, y: 0.002529249, z: 0.00037569797}
+      rotation: {x: -1.9428903e-16, y: -1.2325952e-32, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_Spine1
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Spine
+      position: {x: -6.1629755e-34, y: 0.0033166814, z: -0.00015470073}
+      rotation: {x: 2.7755576e-17, y: 6.162976e-33, z: 3.081488e-33, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_Spine2
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Spine1
+      position: {x: 2.4651903e-34, y: 0.0034574461, z: -0.00045254512}
+      rotation: {x: 6.9388946e-17, y: -2.0917854e-17, z: -7.7808036e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftShoulder
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Spine2
+      position: {x: -0.0019454048, y: 0.0063938736, z: -0.00016271941}
+      rotation: {x: -2.7755576e-17, y: 2.7755576e-17, z: -2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftArm
+      parentName: FoxRig:QuickRigCharacter_Ctrl_LeftShoulder
+      position: {x: -0.0025007469, y: -0.00037922143, z: -0.0014787121}
+      rotation: {x: 0.00024561465, y: -0.045115426, z: 0.5582618, w: 0.82843727}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftForeArm
+      parentName: FoxRig:QuickRigCharacter_Ctrl_LeftArm
+      position: {x: -0.0076175802, y: 4.440892e-18, z: 0}
+      rotation: {x: 0.0129110655, y: 0.1602815, z: 0.07925306, w: 0.9837999}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_LeftHand
+      parentName: FoxRig:QuickRigCharacter_Ctrl_LeftForeArm
+      position: {x: -0.007599094, y: -4.440892e-18, z: 0}
+      rotation: {x: -0.14291278, y: 0.00000012028622, z: 0.0000005533947, w: 0.9897353}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightShoulder
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Spine2
+      position: {x: 0.0019454048, y: 0.0063938736, z: -0.00016271941}
+      rotation: {x: -2.7755576e-17, y: -2.7755576e-17, z: 2.0816682e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightArm
+      parentName: FoxRig:QuickRigCharacter_Ctrl_RightShoulder
+      position: {x: 0.0025007469, y: -0.00037922143, z: -0.0014787121}
+      rotation: {x: 0.06283043, y: 0.1013474, z: -0.4440708, w: 0.88802147}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightForeArm
+      parentName: FoxRig:QuickRigCharacter_Ctrl_RightArm
+      position: {x: 0.0076175802, y: 4.440892e-18, z: 0}
+      rotation: {x: 0.12321685, y: -0.34353626, z: -0.31432348, w: 0.87635684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_RightHand
+      parentName: FoxRig:QuickRigCharacter_Ctrl_RightForeArm
+      position: {x: 0.007599094, y: -4.440892e-18, z: 0}
+      rotation: {x: -0.19797729, y: 0.0000011126419, z: -0.00000008901291, w: 0.9802066}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_Neck
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Spine2
+      position: {x: -1.2325951e-33, y: 0.0039869878, z: -0.0009056664}
+      rotation: {x: -1.9862584e-16, y: -2.725191e-32, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: FoxRig:QuickRigCharacter_Ctrl_Head
+      parentName: FoxRig:QuickRigCharacter_Ctrl_Neck
+      position: {x: 1.9721522e-33, y: 0.015468988, z: 0.00014927417}
+      rotation: {x: 1.4163847e-16, y: 2.7415802e-32, z: -1.110223e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
